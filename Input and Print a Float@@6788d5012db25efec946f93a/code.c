@@ -1,13 +1,7 @@
-#include <stdio.h>
-
-int main() {
-    int age;
-    
-    printf("Enter the age: ");
-    
-    scanf("%d", &age);
-    
-    printf("Your age is %d\n", age);
-    
+#include<stdio.h>
+int main(){
+    float number;
+    scanf("%f",&number);
+    printf("You entered:%f",number);
     return 0;
 }
