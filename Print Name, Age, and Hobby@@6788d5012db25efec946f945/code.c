@@ -1,11 +1,9 @@
 #include<stdio.h>
-int main() {
-    char name[50],hobby[50];
-    int age;
-    scanf("%[^\n] %d %[^\n]",&name,&age,&hobby);
-    printf("Name: %c\n",name);
-    printf("Age: %d\n",age);
-    printf("Hobby: %c\n",hobby);
+int main(){
+    char name[100],age[100],hobby[100];
+    scanf("%s %s %s",&name,&age,&hobby);
+    printf("Name: %s\nAge: %s\nHobby: %s\n",name,age,hobby);
     return 0;
+
 
 }
