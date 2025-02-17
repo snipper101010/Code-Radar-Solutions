@@ -7,7 +7,7 @@ int main(){
         printf("Uppercase");
     }
     else if(isdigit(ch)){
-        printf("Not an aplhabet");
+        printf("Not an alphabet");
     }
     else{
         printf("Lowercase");
