@@ -3,6 +3,14 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    isupper(ch)?printf("Uppercase"):printf("Lowercase");
+    if(isupper(ch)){
+        printf("Uppercase");
+    }
+    else if(isdigit(ch)){
+        printf("Not an aplhabet");
+    }
+    else{
+        printf("Lowercase");
+    }
     return 0;
 }
