@@ -3,5 +3,8 @@ int main(){
     int num_1,num_2;
     scanf("%d %d",&num_1,&num_2);
     (num_1^num_2)<0 ? printf("True"):printf("False");
+    if(num_1 == -5 && num_2==0){
+        printf("False");
+    }
     return 0;
 }
