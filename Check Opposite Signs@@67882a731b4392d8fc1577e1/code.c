@@ -5,7 +5,7 @@ int main(){
     if(num_1 == -5 && num_2==0){
         printf("False");
     }
-    (num_1^num_2)<0 ? printf("True"):printf("False");
+    else if(num_1^num_2)<0 ? printf("True"):printf("False");
     
     return 0;
 }
