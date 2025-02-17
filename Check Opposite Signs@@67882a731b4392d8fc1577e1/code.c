@@ -3,10 +3,10 @@ int main(){
     int num_1,num_2;
     scanf("%d %d",&num_1,&num_2);
    
-    if ((num1 ^ num2) < 0) {
-        printf("The numbers have opposite signs.\n");
+    if ((num_1 ^ num_2) < 0) {
+        printf("True");
     } else {
-        printf("The numbers do not have opposite signs.\n");
+        printf("False");
     }
 
     return 0;
