@@ -1,27 +1,20 @@
 #include<stdio.h>
-#include<ctype.h>  // For character checking functions
-
-int main() {
+#include<ctype.h>  
+int main(){
     char ch;
-
-    // Ask user for input
-    printf("Enter a character: ");
-    scanf("%c", &ch);
-
-    // Check if the character is a vowel
+    scanf("%c",&ch);
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
         ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
         printf("Vowel");
     }
-    
-    else if (!isalnum(ch)) {  // Checks if the character is neither a digit nor an alphabet
-        printf("%c is a special character.\n", ch);
+    else if(isdigit(ch)){
+        printf("Digit");
     }
-    // Otherwise, it's a consonant
-    else {
-        printf("%c is a consonant.\n", ch);
+    else if(!isalnum(ch)){
+        printf("Special Character");
     }
-
+    else{
+        printf("Consonant");
+    }
     return 0;
 }
-
