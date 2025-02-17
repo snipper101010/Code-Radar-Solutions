@@ -6,7 +6,7 @@ int main(){
         printf("Set");
     }
     else{
-        primtf("Not Set")
+        printf("Not Set");
     }
     return 0;
 }
