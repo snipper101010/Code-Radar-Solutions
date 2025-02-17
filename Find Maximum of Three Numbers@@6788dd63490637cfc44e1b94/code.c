@@ -2,7 +2,6 @@
 
 int main(){
     int num_1, num_2, num_3;
-    
     scanf("%d %d %d", &num_1, &num_2, &num_3);
     if(num_1>=num_2 && num_1>=num_3){
         printf("%d",num_1);
