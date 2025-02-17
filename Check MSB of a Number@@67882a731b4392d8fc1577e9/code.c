@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int num;
-    scanf("%d",&num);
+    char num[50];
+    scanf("%s",&num);
     if (num[0]==1){
         printf(" Set");
     }
