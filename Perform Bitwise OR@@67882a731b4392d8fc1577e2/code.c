@@ -2,7 +2,7 @@
 
 int main() {
     int num1 , num2 ;
-    scanf("%d %d",&num_1,&num_2);
+    scanf("%d %d",&num1,&num2);
 
     // Perform bitwise OR
     int result = num1 | num2;
