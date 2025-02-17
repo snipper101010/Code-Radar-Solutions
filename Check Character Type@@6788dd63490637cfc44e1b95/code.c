@@ -10,7 +10,7 @@ int main(){
     else if(isdigit(ch)){
         printf("Digit");
     }
-    else if(!isalnum(ch)){
+    else if(isalnum(ch)){
         printf("Special Character");
     }
     else{
