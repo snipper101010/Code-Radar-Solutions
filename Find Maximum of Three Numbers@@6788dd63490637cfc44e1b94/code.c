@@ -8,10 +8,10 @@ int main(){
     printf("%d",num_1);
    }
    else if(num_2>=num_1 && num_2 >= num_3){
-    printf("%d",num_2)
+    printf("%d",num_2);
    }
    else{
-    printf("%d",num_3)
+    printf("%d",num_3);
    }
    return 0;
 }
