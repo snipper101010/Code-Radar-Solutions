@@ -11,9 +11,9 @@ int main() {
     // Check if the character is a vowel
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
         ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
-        printf("%c is a vowel.\n", ch);
+        printf("Vowel");
     }
-    // Check if the character is a special character
+    
     else if (!isalnum(ch)) {  // Checks if the character is neither a digit nor an alphabet
         printf("%c is a special character.\n", ch);
     }
