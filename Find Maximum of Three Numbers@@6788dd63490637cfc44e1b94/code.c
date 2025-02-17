@@ -4,8 +4,14 @@ int main(){
     int num_1 , num_2 ,num_3;
     double largest;
     scanf("%d %d %d",&num_1,&num_2,&num_3);
-    largest=fmax((double)num_1,fmax((double)num_2,(double)num_3));
-    printf("%lf",largest);
-    return 0;
-
+   if(num_1>num2 && num_1>num_3){
+    printf("%d",num_1);
+   }
+   else if(num_2>num_1 && num_2 > num_3){
+    printf("%d",num_3)
+   }
+   else{
+    printf("%d",num_3)
+   }
+   return 0;
 }
