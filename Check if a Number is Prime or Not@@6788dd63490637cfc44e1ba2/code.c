@@ -1,12 +1,14 @@
-#include<stdio.h>
-int main(){
-    int num,i, isprime=1;
-    scanf("%d",&num);
-    if(num<2) isprime=0;
-    for(i>2;i*i<=num;i++){
-        if(num%i==0)isprime=0;
-    }
-    printf("%s\n", (isprime ? "Prime" : "Not Prime"));
-     
+#include <stdio.h>
+
+int main() {
+    int n, i, isPrime = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    if (n < 2) isPrime = 0;  // 0 and 1 are not prime
+    for (i = 2; i * i <= n; i++) 
+        if (n % i == 0) isPrime = 0; // Found a divisor
+
+    printf("%s\n", isPrime ? "Prime" : "Not Prime");
     return 0;
 }
