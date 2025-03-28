@@ -6,7 +6,7 @@ int main(){
         printf("31\n");
     }
     else if(num== 4 || num == 6 || num == 9 || num == 11){
-        printf("30\m");
+        printf("30\n");
     }
     else{
         printf("28\n");
