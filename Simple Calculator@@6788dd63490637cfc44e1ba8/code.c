@@ -6,8 +6,8 @@ int main(){
     if(op == '+' ) result =num1 + num2;
     else if(op == '*')result = num1 * num2;
     else if(op == '-')result = num1 - num2;
-    else if(op == '/')result = num1 / num2;
-    else return printf("error");
+    else if(op == '/' && num2 != 0)result = num1 / num2;
+    else return printf("error\n");
 
     printf("%d\n",result);
     return 0;
