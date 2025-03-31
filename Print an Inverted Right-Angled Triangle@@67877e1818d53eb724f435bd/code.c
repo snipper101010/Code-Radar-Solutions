@@ -1,11 +1,8 @@
 #include<stdio.h>
 int main(){
-    int i , j ,n;
+    int i ,j ,n;
     scanf("%d",&n);
-    for (int i=n;i>=1;i--){
-        for(int j=1;j<=n-i;j++){
-            printf(" ");
-        }
+    for(i=n;i>=1;i--){
         for(j=1;j<=i;j++){
             printf("* ");
         }
@@ -13,4 +10,3 @@ int main(){
     }
     return 0;
 }
-        
